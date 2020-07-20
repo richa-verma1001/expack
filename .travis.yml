@@ -8,4 +8,4 @@ script:
   - npm i
   - npm run test
   - npm run coverage
-before_deploy: npm run buildProd
+  - npm run buildProd
